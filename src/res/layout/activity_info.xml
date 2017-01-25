@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.chrisheimlich.galaticrenegade.HighScore"
+    android:background="@drawable/altscreen"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Controls: \nLeft Arrow - Move left \nRight Arrow - Move Right \nCircle - Boost speed \n\n Press back to return..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_weight="0.09"
+        android:textSize="22sp"
+        android:layout_marginTop="81dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:text="You are the fearsome Galactic Renegade. Your objective is to destroy all your enemies by ramming them at high-speed, as your shields do not work unless the inertia from your engines is high enough. Your ship will emit a constant jet blast when at max speed which means it is safe to destroy enemy ships. Do not ram an enemy ship while not at max speed or you will be destroyed as well! Also, while hunting your enemies make sure you dodge any space debris! Your enemies are numerous, and each is worth 100 points. Destroy as many as you can! Good luck!"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textAlignment="viewStart"
+        android:textSize="14sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="97dp" />
+
+    <ImageButton
+        android:id="@+id/buttonShare"
+        android:background="@drawable/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
